@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  /*Geral*/
+  body {
+    font-family: Inter;
+    margin: 0px;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f0f5fb;
+  }
+
+  p {
+    margin: 0px;
+  }
+
+  /*Cabeçalho*/
+  header {
+    background-color: #2e2f35;
+    display: flex;
+  }
+
+  #logo {
+    display: inline;
+  }
+
+  /*Barra de Pesquisa*/
+  .search-box {
+    margin-left: 50%;
+    margin-top: 98px;
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50, -50);
+    background: #0a1b2d;
+    height: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .search-txt {
+    border: none;
+    background: none;
+    outline: 0;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+
+
+    font-family: Inter;
+
+  }
+
+  ::-webkit-input-placeholder {
+
+    color: #1e3754;
+  }
+
+  .search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 6px;
+
+  }
+
+  .search-box:hover>.search-btn {
+
+    background: #f0f5fb;
+
+  }
+
+  /*Categorias*/
+  #categorias {
+    display: flex;
+    justify-content: center;
+    background-color: #f2855a;
+    padding: 10px;
+
+  }
+
+  .item {
+    background-color: #c0633f;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .item span a {
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+  }
+
+  #title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*Apps*/
+  #apps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    gap: 10px;
+    height: 400px;
+  }
+  .app_row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .app_box {
+    width: 25%;
+    background-color: #d3d7db;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .app_box img {
+    height: 80%;
+    width: 80%;
+    margin-left: 16px;
+  }
+  .app_box section {
+    box-sizing: border-box;
+    padding-top: 3px;
+    background-color: #f2855a;
+    height: 20%;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .app_box span {
+    color: rgb(234, 234, 234);
+  }
+
+  /*Rodapé*/
+  #footer_logo {
+    background-color: #2e2f35;
+  }
+  #footer_logo img {
+    margin-left: 23%;
+  }
+
+  #about {
+    background-color: #f2855a;
+    color: rgb(234, 234, 234);
+    padding: 30px;
+  }

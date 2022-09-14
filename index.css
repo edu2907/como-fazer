@@ -1,0 +1,56 @@
+  /*Categorias*/
+  
+
+  #title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*Apps*/
+  #apps {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    gap: 10px;
+    height: 400px;
+  }
+  .app_row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .app_box {
+    width: 25%;
+    background-color: #e9edf1;
+    border-radius: 5px 5px 0px 0px;
+    filter: brightness(100%);
+  }
+  .app_box:hover {
+    filter: brightness(110%);
+  }
+  .app_box img {
+    height: 80%;
+    width: 80%;
+    margin-left: 16px;
+  }
+  .app_box section {
+    box-sizing: border-box;
+    padding-top: 3px;
+    background-color: #f2855a;
+    height: 20%;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .app_box span {
+    color: rgb(234, 234, 234);
+  }
+
+  /*Rodapé*/
+  #about {
+    background-color: #2e2f35;
+    color: rgb(234, 234, 234);
+    padding: 30px;
+  }
